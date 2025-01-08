@@ -1,0 +1,1 @@
+my @array = (1, 2, 3);my $element;if ($#array >= 2) {  $element = $array[2];} else {  $element = undef;} #Handles cases where array has less than 3 elements print "Element at index 2 (if exists): $element\n";
